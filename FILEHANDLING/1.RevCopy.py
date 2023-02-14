@@ -1,6 +1,8 @@
 file1=open("file1.txt","r")
 file3=open("file3.txt","w")
 str=file1.read();
+
+print(str)
 s1=""
 for i in str:
     s1=i+s1
